@@ -1,0 +1,25 @@
+{
+  "name": "nekoos-pood/bitwise-flag",
+  "description": "Utility for handling bitwise operations | Utilidad para el manejo de operaciones bit a bit",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Neder Alfonso Fandiño Andrade",
+      "homepage": "http://nekoos.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NekoOs\\": "src/NekoOs/",
+      "Tests\\": "tests/"
+    }
+  }
+}
